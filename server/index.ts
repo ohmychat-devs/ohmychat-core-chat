@@ -1,6 +1,9 @@
-import { db } from '@ohmychat/ohmychat-backend-core';
+import getUserChat from "./handlers/getUserChat.js";
 
-export default function() {
-    console.log(db);
+export const namespace = '/chat';
+
+export default function(socket) {
+    socket.on('chat/get', getUserChat);
+    //console.log(db);
     console.log('hello');
 }

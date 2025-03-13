@@ -1,6 +1,6 @@
 {
   "name": "@ohmychat/ohmychat-core-chat",
-  "version": "1.0.5",
+  "version": "0.0.0",
   "description": "",
   "homepage": "https://github.com/ohmychat-devs/ohmychat-core-chat#readme",
   "bugs": {
@@ -22,6 +22,6 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "@ohmychat/ohmychat-backend-core": "^0.0.0"
+    "@ohmychat/ohmychat-backend-core": "^0.0.2"
   }
 }
