@@ -1,6 +1,6 @@
 {
   "name": "@ohmychat/ohmychat-core-chat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "homepage": "https://github.com/ohmychat-devs/ohmychat-core-chat#readme",
   "bugs": {
@@ -22,8 +22,10 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "@legendapp/state": "^2.1.15",
     "@ohmychat/ohmychat-backend-core": "^0.0.4",
     "@ohmychat/ohmychat-core-chat": "^0.0.1",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "react-native": "^0.78.0"
   }
 }
